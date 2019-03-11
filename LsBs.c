@@ -44,6 +44,7 @@ int binary(int a[],int n)
 		
 	mid=(start+end)/2;
 	}
+return 0;	
 	
 }
 
