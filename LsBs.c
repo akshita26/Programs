@@ -16,7 +16,7 @@ int main()
     if(bs)
     printf("Element found at %d", bs);
     else
-    printf("Element not found");
+    printf("Element not found"); 
 	return 0;
 }
 int linear(int a[],int n)
@@ -25,7 +25,7 @@ int linear(int a[],int n)
 		for(i=0;i<10;i++)
 	{
 		if(a[i]==n)
-		return i+1;
+		return i+1; //incrementing
 	}
 	return 0;
 }
