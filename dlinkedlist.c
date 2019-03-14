@@ -5,7 +5,7 @@ struct node
 	int data;
 	struct node *next;
 	struct node *prev;
-}*start,*ptr,*temp,*temp1,*newn,*pptr;
+}*start,*ptr,*temp,*temp1,*newn, *pptr;
 int main()
 {
 	int i,ch,choice,val,value;
