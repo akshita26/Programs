@@ -2,7 +2,8 @@
 #include<conio.h>
 int main()
 {
-	int i,n,a[10],ls,bs;
+	int i,n,a[10];
+	int ls,bs;
 	for(i=0;i<10;i++)
 	scanf("%d",&a[i]);
 	printf("Enter element to be searched:\n");
