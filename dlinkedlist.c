@@ -15,7 +15,7 @@ int main()
 		struct node *newc;
 		printf("Enter the value of nodes\n");
 		scanf("%d",&val);
-		newc=(struct node*)malloc(sizeof(struct node));
+		newc=(struct node*)malloc(sizeof(struct node)); //size
 		newc->data=val;
 		if(start==NULL)
 		{
