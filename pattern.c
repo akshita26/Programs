@@ -16,6 +16,7 @@ void main()
 		{
 			printf("%d ",(i+j)*a[i][j]);
 		}
+			
 		printf("\n");
 	}
 }
