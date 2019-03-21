@@ -33,7 +33,8 @@ int linear(int a[],int n)
 }
 int binary(int a[],int n)
 {
-	int start=0, end=9;             
+	int start=0;
+	int end=9; 
 	int mid=(start+end)/2;
 	while(start<=end)
 	{
