@@ -69,8 +69,7 @@ int main()
 			while(ptr->next!=NULL)
 			{
 				pptr=ptr;
-				ptr=ptr->next;
-			}
+				ptr=ptr->next; }
 			pptr->next=NULL;
 			printf("Created linked list:\n");
 			temp1=start;
