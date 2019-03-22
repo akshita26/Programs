@@ -78,6 +78,7 @@ int main()
 				printf("%d ", temp1->data);
 		        temp1=temp1->next;
 			}break;
+		
 			
 	}
 return 0;	
