@@ -16,8 +16,9 @@ int main()
     printf("Element not found");
     bs=binary(a,n);
     if(bs)
-	    
+	
     printf("Element found at %d", bs);
+	
     else
     printf("Element not found"); 
 	return 0;
