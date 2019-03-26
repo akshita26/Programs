@@ -5,7 +5,6 @@ int main()
 {
 	int i,n,a[10];
 	int ls,bs;
-	
 	for(i=0;i<10;i++)
 	scanf("%d",&a[i]);
 	printf("Enter element to be searched:\n");
@@ -17,9 +16,7 @@ int main()
     printf("Element not found");
     bs=binary(a,n);
     if(bs)
-	
     printf("Element found at %d", bs);
-	
     else
     printf("Element not found"); 
 	return 0;
@@ -50,7 +47,6 @@ int binary(int a[],int n)
 		
 	mid=(start+end)/2;
 	}
-return 0;	
-	
+return 0;		
 }
 
