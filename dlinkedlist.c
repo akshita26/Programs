@@ -59,7 +59,7 @@ int main()
 			temp1=start;
 			while(temp1!=NULL)
 			{
-				printf("%d ", temp1->data);
+			printf("%d ", temp1->data);
 		        temp1=temp1->next;
 			}
 			break;
@@ -68,14 +68,15 @@ int main()
 			pptr=NULL;
 			while(ptr->next!=NULL)
 			{
-				pptr=ptr;
-				ptr=ptr->next; }
+			pptr=ptr;
+			ptr=ptr->next;
+			}
 			pptr->next=NULL;
 			printf("Created linked list:\n");
 			temp1=start;
 			while(temp1!=NULL)
 			{
-				printf("%d ", temp1->data);
+			printf("%d ", temp1->data);
 		        temp1=temp1->next;
 			}break;
 		
