@@ -10,7 +10,7 @@ int main()
 		for(d=0;d<n;d++);
 		{
 		scanf("%d",&a[c][d]);
-	}
+	        }
 	}
 	printf("no of rows and column of 2nd matrix");
 	scanf("%d %d",&p,&q);
