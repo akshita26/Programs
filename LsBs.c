@@ -7,6 +7,7 @@ int main()
 	int ls,bs;
 	for(i=0;i<10;i++)
 	scanf("%d",&a[i]);
+	
 	printf("Enter element to be searched:\n");
 	scanf("%d",&n);
     ls=linear(a,n);
