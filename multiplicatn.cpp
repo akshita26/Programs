@@ -19,6 +19,7 @@ printf("Enter elemnts of 2nd");
 	for(c=0;c<p;c++)
 	{
 		for(d=0;d<q;d++);
+		
 		scanf("%d",&b[p][q]);
 	}
 	for(c=0;c<m;c++)
