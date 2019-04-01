@@ -26,5 +26,6 @@ void main()
 	}
 	printf("Sorted");
 	for(c=0;c<n;c++)
+		
 	printf("%d", arr[c]);
 }
