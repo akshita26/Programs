@@ -31,7 +31,7 @@ void main()
 			}
 			break;
 		case 2:
-		    printf("Enter element to be deleted:\n");
+		  printf("Enter element to be deleted:\n");
 			scanf("%d",&e);
 			for(i=0;i<n;i++)
 			{
